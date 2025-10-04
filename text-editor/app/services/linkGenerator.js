@@ -463,7 +463,6 @@ export class LinkGenerator {
 export const linkGenerator = new LinkGenerator();
 
 // ✅ PRODUCTION: Export configuration for use elsewhere
-export { COLLABORATION_CONFIG };
 
 console.log('🔗 LinkGenerator module loaded:', {
   environment: COLLABORATION_CONFIG.ENVIRONMENT,
